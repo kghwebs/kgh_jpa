@@ -6,4 +6,5 @@ interface listRepository: CrudRepository<List, Long>{
     fun findBylistTitle(listTitle: String): List?
 
     fun findBylistIdx(listIdx: Int): List?
+    
 }
